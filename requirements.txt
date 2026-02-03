@@ -1,0 +1,16 @@
+# Web Scraping & Automation
+scrapy
+scrapy-playwright
+playwright
+
+# Data Processing
+pandas
+openpyxl
+
+# Fuzzy Matching (Critical for data_processor.py)
+thefuzz
+python-Levenshtein
+
+# Environment & Utilities
+python-dotenv
+pathlib

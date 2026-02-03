@@ -1,0 +1,54 @@
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+
+# --- Secrets & Environment ---
+.env
+.env.*
+!.env.example
+authentication/*.json
+
+# --- Distribution / Build ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Testing & Linting ---
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Project Outputs & Logs ---
+# We ignore the content, but keep the folders
+logs/*.log
+outputs/*.csv
+outputs/*.xlsx
+
+# Except for these
+!logs/.gitkeep
+!outputs/.gitkeep
